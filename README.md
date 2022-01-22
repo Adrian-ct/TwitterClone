@@ -2,6 +2,8 @@ This application was created for the Modern C++ course at my university working 
 It's a multi-client app, to be as similar to the original app as possible.
 I had the job to work on the back-end side of the app.
 I implemented the multi-client capacity by myself, made the connections between the server and the client for the functionalities of the Like, Dislike, Comment, Feed, Profile, Searching Posts by Hashtag buttons present in the GUI.
+
+
 The first window after starting the app
 ![image](https://user-images.githubusercontent.com/70197124/150654162-a6ba659d-07b5-43d6-8745-8d005d05433f.png)
 
