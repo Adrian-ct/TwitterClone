@@ -1,45 +1,18 @@
-**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**
+This application was created for the Modern C++ course at my university working as a team of 4 people on the course of 10 weeks.
+It's a multi-client app, to be as similar to the original app as possible.
+I had the job to work on the back-end side of the app.
+I implemented the multi-client capacity by myself, made the connections between the server and the client for the functionalities of the Like, Dislike, Comment, Feed, Profile, Searching Posts by Hashtag buttons present in the GUI.
+The first window after starting the app
+![image](https://user-images.githubusercontent.com/70197124/150654162-a6ba659d-07b5-43d6-8745-8d005d05433f.png)
 
-When you're done, you can delete the content in this README and update the file with details for others getting started with your repository.
+![image](https://user-images.githubusercontent.com/70197124/150654205-3f6edb8a-77e2-474c-8d23-9391015ef087.png)
 
-*We recommend that you open this README in another tab as you perform the tasks below. You can [watch our video](https://youtu.be/0ocf7u76WSo) for a full demo of all the steps in this tutorial. Open the video in a new tab to avoid leaving Bitbucket.*
+![image](https://user-images.githubusercontent.com/70197124/150654230-209ebcf2-d044-47e4-8839-9945286ea43b.png)
+Feed after Following a person
 
----
+![image](https://user-images.githubusercontent.com/70197124/150654239-7f0c116c-4434-48b8-9d37-abe347d87a1c.png)
 
-## Edit a file
+![image](https://user-images.githubusercontent.com/70197124/150654250-ed2d6c1d-0614-4f4f-bb7e-e91d2b0df2b8.png)
 
-You’ll start by editing this README file to learn how to edit a file in Bitbucket.
-
-1. Click **Source** on the left side.
-2. Click the README.md link from the list of files.
-3. Click the **Edit** button.
-4. Delete the following text: *Delete this line to make a change to the README from Bitbucket.*
-5. After making your change, click **Commit** and then **Commit** again in the dialog. The commit page will open and you’ll see the change you just made.
-6. Go back to the **Source** page.
-
----
-
-## Create a file
-
-Next, you’ll add a new file to this repository.
-
-1. Click the **New file** button at the top of the **Source** page.
-2. Give the file a filename of **contributors.txt**.
-3. Enter your name in the empty file space.
-4. Click **Commit** and then **Commit** again in the dialog.
-5. Go back to the **Source** page.
-
-Before you move on, go ahead and explore the repository. You've already seen the **Source** page, but check out the **Commits**, **Branches**, and **Settings** pages.
-
----
-
-## Clone a repository
-
-Use these steps to clone from SourceTree, our client for using the repository command-line free. Cloning allows you to work on your files locally. If you don't yet have SourceTree, [download and install first](https://www.sourcetreeapp.com/). If you prefer to clone from the command line, see [Clone a repository](https://confluence.atlassian.com/x/4whODQ).
-
-1. You’ll see the clone button under the **Source** heading. Click that button.
-2. Now click **Check out in SourceTree**. You may need to create a SourceTree account or log in.
-3. When you see the **Clone New** dialog in SourceTree, update the destination path and name if you’d like to and then click **Clone**.
-4. Open the directory you just created to see your repository’s files.
-
-Now that you're more familiar with your Bitbucket repository, go ahead and add a new file locally. You can [push your change back to Bitbucket with SourceTree](https://confluence.atlassian.com/x/iqyBMg), or you can [add, commit,](https://confluence.atlassian.com/x/8QhODQ) and [push from the command line](https://confluence.atlassian.com/x/NQ0zDQ).
+Like and Add Comment functionality
+![image](https://user-images.githubusercontent.com/70197124/150654263-68bd6068-64f9-43a8-a2ab-f331739b1907.png)
