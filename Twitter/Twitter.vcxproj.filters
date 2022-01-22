@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\DatabaseConnection_H">
+      <UniqueIdentifier>{d00902c7-f506-4bbf-9565-d17186302357}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DatabaseConnection_CPP">
+      <UniqueIdentifier>{ed9a1adc-7566-402c-abf2-1a559430fa2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Networking_CPP">
+      <UniqueIdentifier>{f299ce57-5c16-458b-8e3b-66bdd26d2648}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Other_CPP">
+      <UniqueIdentifier>{63111975-2a8e-4d0d-b2a3-f6b2a7d6ebeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Networking_H">
+      <UniqueIdentifier>{4276b14f-552b-4a2a-9f93-fb0bd2982fcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\JSON_LIB">
+      <UniqueIdentifier>{d8a5b0d2-744c-45df-be9c-79b7e6fd6e76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Other_H">
+      <UniqueIdentifier>{fb13d3ff-280d-4e6e-948f-58cc8fd02ba4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyDB.h">
+      <Filter>Header Files\DatabaseConnection_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Server.h">
+      <Filter>Header Files\Networking_H</Filter>
+    </ClInclude>
+    <ClInclude Include="nlohmann.hpp">
+      <Filter>Header Files\JSON_LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="Alg.h">
+      <Filter>Header Files\Other_H</Filter>
+    </ClInclude>
+    <ClInclude Include="SocialGraph.h">
+      <Filter>Header Files\Other_H</Filter>
+    </ClInclude>
+    <ClInclude Include="PostsContainer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DatabaseQueries.h">
+      <Filter>Header Files\DatabaseConnection_H</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyDB.cpp">
+      <Filter>Source Files\DatabaseConnection_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Server.cpp">
+      <Filter>Source Files\Networking_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="SocialGraph.cpp">
+      <Filter>Source Files\Other_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Alg.cpp">
+      <Filter>Source Files\Other_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="sqlite3.c">
+      <Filter>Source Files\DatabaseConnection_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="PostsContainer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DatabaseQueries.cpp">
+      <Filter>Source Files\DatabaseConnection_CPP</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="twitter.db">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="logs.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

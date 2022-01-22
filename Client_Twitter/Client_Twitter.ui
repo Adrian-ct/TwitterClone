@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Client_TwitterClass</class>
+ <widget class="QMainWindow" name="Client_TwitterClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1671</width>
+    <height>901</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Client_Twitter</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="background">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>-10</y>
+      <width>1681</width>
+      <height>911</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Sign_Up">
+    <property name="geometry">
+     <rect>
+      <x>1200</x>
+      <y>530</y>
+      <width>201</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+font-size:16px;
+border-radius: 10px;
+background-color:rgb(53, 141, 255);
+color:rgb(255, 255, 255)
+}
+QPushButton:hover{
+background-color:rgb(33, 81, 255)
+}
+QPushButton:pressed{
+background-color:rgb(43, 107, 255)
+}</string>
+    </property>
+    <property name="text">
+     <string>Sign Up</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="AlreadyAccount">
+    <property name="geometry">
+     <rect>
+      <x>1200</x>
+      <y>620</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+font-size:13px;</string>
+    </property>
+    <property name="text">
+     <string>Already have an account? </string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Log_In">
+    <property name="geometry">
+     <rect>
+      <x>1200</x>
+      <y>650</y>
+      <width>201</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+font-size:16px;
+border-radius: 10px;
+background-color:rgb(53, 141, 255);
+color:rgb(255, 255, 255)
+}
+QPushButton:hover{
+background-color:rgb(33, 81, 255)
+}
+QPushButton:pressed{
+background-color:rgb(43, 107, 255)
+}</string>
+    </property>
+    <property name="text">
+     <string>Log In</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="logoLabel">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>-10</y>
+      <width>1691</width>
+      <height>941</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="Client_Twitter.qrc">:/Client_Twitter/TwitterLogo.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <zorder>background</zorder>
+   <zorder>AlreadyAccount</zorder>
+   <zorder>Sign_Up</zorder>
+   <zorder>Log_In</zorder>
+   <zorder>logoLabel</zorder>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="Client_Twitter.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Feed</class>
+ <widget class="QWidget" name="Feed">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1671</width>
+    <height>901</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Feed</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QPushButton" name="previousPostButton">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>330</y>
+     <width>71</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+border-top-left-radius: 15px;
+border-bottom-left-radius: 15px;
+background-color:rgb(53, 141, 255);
+color:rgb(255, 255, 255)
+}
+QPushButton:hover{
+background-color:rgb(33, 81, 255)
+}
+QPushButton:pressed{
+background-color:rgb(43, 107, 255)
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>Icons/2x/baseline_arrow_back_ios_new_black_24dp.png</normaloff>Icons/2x/baseline_arrow_back_ios_new_black_24dp.png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="postCommentButton">
+   <property name="geometry">
+    <rect>
+     <x>1080</x>
+     <y>730</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+border-radius: 10px;
+background-color:rgb(53, 141, 255);
+color:rgb(255, 255, 255)
+}
+QPushButton:hover{
+background-color:rgb(33, 81, 255)
+}
+QPushButton:pressed{
+background-color:rgb(43, 107, 255)
+}</string>
+   </property>
+   <property name="text">
+    <string>Post comment</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>Icons/2x/baseline_add_comment_black_24dp.png</normaloff>Icons/2x/baseline_add_comment_black_24dp.png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="nextPostButton">
+   <property name="geometry">
+    <rect>
+     <x>1190</x>
+     <y>330</y>
+     <width>71</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+border-top-right-radius: 15px;
+border-bottom-right-radius: 15px;
+background-color:rgb(53, 141, 255);
+color:rgb(255, 255, 255)
+}
+QPushButton:hover{
+background-color:rgb(33, 81, 255)
+}
+QPushButton:pressed{
+background-color:rgb(43, 107, 255)
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>Icons/2x/baseline_arrow_forward_ios_black_24dp.png</normaloff>Icons/2x/baseline_arrow_forward_ios_black_24dp.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>20</width>
+     <height>20</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="commentLine">
+   <property name="geometry">
+    <rect>
+     <x>385</x>
+     <y>730</y>
+     <width>681</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="postArea">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>100</y>
+     <width>801</width>
+     <height>621</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(207, 217, 255);
+</string>
+   </property>
+   <property name="title">
+    <string>Posts</string>
+   </property>
+   <widget class="QLabel" name="usernamePostLabel">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>20</y>
+      <width>241</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 13pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="commentsBox">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>390</y>
+      <width>771</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Comments</string>
+    </property>
+    <widget class="QScrollArea" name="commentsScrollArea">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>741</width>
+       <height>141</height>
+      </rect>
+     </property>
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="commentContentScrollArea">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>739</width>
+        <height>139</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QTextBrowser" name="postTextBrowser">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>80</y>
+      <width>761</width>
+      <height>251</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="nameInitLabel">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+ border-style: outset;
+ border-width: 2px;
+ border-color: black;
+border-radius:20px;
+font: 18pt &quot;Lucida Calligraphy&quot;;
+color:black;
+background-color:rgb(120, 149, 255)
+
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="dislikeButton">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>340</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+
+background-color:  rgb(30, 101, 255);
+color:rgb(255, 255, 255);
+border-radius: 15px;
+
+}
+QPushButton:hover{
+background-color: rgb(1, 221, 255);
+color:rgb(0, 0, 0);
+}
+QPushButton:pressed{
+background-color:rgb(43, 107, 255)
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>Icons/2x/baseline_thumb_down_alt_white_24dp.png</normaloff>Icons/2x/baseline_thumb_down_alt_white_24dp.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>23</width>
+      <height>23</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="likeButton">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>340</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+
+background-color:  rgb(30, 101, 255);
+color:rgb(255, 255, 255);
+border-radius: 15px;
+
+}
+QPushButton:hover{
+background-color: rgb(1, 221, 255);
+color:rgb(0, 0, 0);
+}
+QPushButton:pressed{
+background-color:rgb(43, 107, 255)
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>Icons/2x/baseline_thumb_up_white_24dp.png</normaloff>Icons/2x/baseline_thumb_up_white_24dp.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>23</width>
+      <height>23</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="referenceUsername">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>190</y>
+      <width>721</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">  border: 2px solid rgb(85, 170, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="autoDefault">
+     <bool>false</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="referenceTweetText">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>220</y>
+      <width>661</width>
+      <height>91</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="retweetButton">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>340</y>
+      <width>131</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+
+background-color:  rgb(30, 101, 255);
+color:rgb(255, 255, 255);
+border-radius: 15px;
+
+}
+QPushButton:hover{
+background-color: rgb(1, 221, 255);
+color:rgb(0, 0, 0);
+}
+QPushButton:pressed{
+background-color:rgb(43, 107, 255)
+}</string>
+    </property>
+    <property name="text">
+     <string>Retweet</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="char_counter">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>590</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>-10</y>
+     <width>1691</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+background-color:rgb(181, 207, 255);
+    border-style: outset;
+    border-width: 2px;
+    border-color:rgb(146, 217, 255)
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="searchButton">
+   <property name="geometry">
+    <rect>
+     <x>1250</x>
+     <y>10</y>
+     <width>64</width>
+     <height>39</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+border-radius: 10px;
+background-color:rgb(53, 141, 255);
+color:rgb(255, 255, 255)
+}
+QPushButton:hover{
+background-color:rgb(33, 81, 255)
+}
+QPushButton:pressed{
+background-color:rgb(43, 107, 255)
+}</string>
+   </property>
+   <property name="text">
+    <string>Search</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>Icons/2x/baseline_search_black_24dp.png</normaloff>Icons/2x/baseline_search_black_24dp.png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="createPostButton">
+   <property name="geometry">
+    <rect>
+     <x>1090</x>
+     <y>10</y>
+     <width>134</width>
+     <height>39</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+border-radius: 10px;
+background-color:rgb(53, 141, 255);
+color:rgb(255, 255, 255)
+}
+QPushButton:hover{
+background-color:rgb(33, 81, 255)
+}
+QPushButton:pressed{
+background-color:rgb(43, 107, 255)
+}</string>
+   </property>
+   <property name="text">
+    <string>New post</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>Icons/2x/baseline_add_black_24dp.png</normaloff>Icons/2x/baseline_add_black_24dp.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>30</width>
+     <height>30</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="feedButton">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>10</y>
+     <width>134</width>
+     <height>39</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+border-radius: 10px;
+background-color:rgb(53, 141, 255);
+color:rgb(255, 255, 255)
+}
+QPushButton:hover{
+background-color:rgb(33, 81, 255)
+}
+QPushButton:pressed{
+background-color:rgb(43, 107, 255)
+}</string>
+   </property>
+   <property name="text">
+    <string>Feed</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>Icons/2x/baseline_home_black_24dp.png</normaloff>Icons/2x/baseline_home_black_24dp.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>30</width>
+     <height>30</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="profileButton">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>10</y>
+     <width>134</width>
+     <height>39</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+border-radius: 10px;
+background-color:rgb(53, 141, 255);
+color:rgb(255, 255, 255)
+}
+QPushButton:hover{
+background-color:rgb(33, 81, 255)
+}
+QPushButton:pressed{
+background-color:rgb(43, 107, 255)
+}</string>
+   </property>
+   <property name="text">
+    <string>Profile</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>Icons/2x/baseline_account_circle_black_24dp.png</normaloff>Icons/2x/baseline_account_circle_black_24dp.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>30</width>
+     <height>30</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="searchLine">
+   <property name="geometry">
+    <rect>
+     <x>1320</x>
+     <y>20</y>
+     <width>171</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="background">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>50</y>
+     <width>1691</width>
+     <height>851</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(213, 221, 255)
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="foundUsers">
+   <property name="geometry">
+    <rect>
+     <x>1320</x>
+     <y>40</y>
+     <width>171</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(203, 230, 255)</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>385</x>
+     <y>95</y>
+     <width>811</width>
+     <height>631</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(185, 200, 255)</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="showUserProfileButton">
+   <property name="geometry">
+    <rect>
+     <x>1330</x>
+     <y>260</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+border-radius: 10px;
+background-color:rgb(53, 141, 255);
+color:rgb(255, 255, 255)
+}
+QPushButton:hover{
+background-color:rgb(33, 81, 255)
+}
+QPushButton:pressed{
+background-color:rgb(43, 107, 255)
+}</string>
+   </property>
+   <property name="text">
+    <string>Show his profile </string>
+   </property>
+  </widget>
+  <zorder>background</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label</zorder>
+  <zorder>previousPostButton</zorder>
+  <zorder>postCommentButton</zorder>
+  <zorder>nextPostButton</zorder>
+  <zorder>commentLine</zorder>
+  <zorder>postArea</zorder>
+  <zorder>searchButton</zorder>
+  <zorder>createPostButton</zorder>
+  <zorder>feedButton</zorder>
+  <zorder>profileButton</zorder>
+  <zorder>searchLine</zorder>
+  <zorder>foundUsers</zorder>
+  <zorder>showUserProfileButton</zorder>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

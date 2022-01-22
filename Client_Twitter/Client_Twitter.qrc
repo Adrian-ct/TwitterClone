@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/Client_Twitter">
+        <file>TwitterBackground.png</file>
+        <file>TwitterLogo.jpg</file>
+        <file>signUpLogo.png</file>
+    </qresource>
+</RCC>

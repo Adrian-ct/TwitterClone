@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="Header Files\JSON_LIB">
+      <UniqueIdentifier>{f33ca03f-78d4-46b3-9f95-62358e954ee1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI">
+      <UniqueIdentifier>{585ddd33-800b-4aa7-98ac-0accd565c0c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI_source">
+      <UniqueIdentifier>{36d42b1c-42da-44f4-9625-7527ee3709ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Server_source">
+      <UniqueIdentifier>{f9818c15-6bc3-406c-bb83-2024fb27b0d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ServerLink">
+      <UniqueIdentifier>{679f9d28-3a5d-4ad5-832e-e5b27db52260}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="Client_Twitter.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <QtUic Include="Client_Twitter.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Client_Twitter.cpp">
+      <Filter>Source Files\GUI_source</Filter>
+    </ClCompile>
+    <ClCompile Include="Log_In.cpp">
+      <Filter>Source Files\GUI_source</Filter>
+    </ClCompile>
+    <ClCompile Include="Profile.cpp">
+      <Filter>Source Files\GUI_source</Filter>
+    </ClCompile>
+    <ClCompile Include="Sign_Up.cpp">
+      <Filter>Source Files\GUI_source</Filter>
+    </ClCompile>
+    <ClCompile Include="Feed.cpp">
+      <Filter>Source Files\GUI_source</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>Source Files\Server_source</Filter>
+    </ClCompile>
+    <ClCompile Include="Comment.cpp">
+      <Filter>Source Files\Server_source</Filter>
+    </ClCompile>
+    <ClCompile Include="IEntityC.cpp">
+      <Filter>Source Files\Server_source</Filter>
+    </ClCompile>
+    <ClCompile Include="Post.cpp">
+      <Filter>Source Files\Server_source</Filter>
+    </ClCompile>
+    <ClCompile Include="PostWithUser.cpp">
+      <Filter>Source Files\Server_source</Filter>
+    </ClCompile>
+    <ClCompile Include="Socket.cpp">
+      <Filter>Source Files\Server_source</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>Source Files\Server_source</Filter>
+    </ClCompile>
+    <ClCompile Include="MakePost.cpp">
+      <Filter>Source Files\GUI_source</Filter>
+    </ClCompile>
+    <ClCompile Include="ReferenceTweet.cpp">
+      <Filter>Source Files\GUI_source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Client_Twitter.h">
+      <Filter>Header Files\GUI</Filter>
+    </QtMoc>
+    <QtMoc Include="Feed.h">
+      <Filter>Header Files\GUI</Filter>
+    </QtMoc>
+    <QtMoc Include="Log_In.h">
+      <Filter>Header Files\GUI</Filter>
+    </QtMoc>
+    <QtMoc Include="Sign_Up.h">
+      <Filter>Header Files\GUI</Filter>
+    </QtMoc>
+    <QtMoc Include="Profile.h">
+      <Filter>Header Files\GUI</Filter>
+    </QtMoc>
+    <QtMoc Include="MakePost.h">
+      <Filter>Header Files\GUI</Filter>
+    </QtMoc>
+    <QtMoc Include="ReferenceTweet.h">
+      <Filter>Header Files\GUI</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="Log_In.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="Sign_Up.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="Feed.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="Profile.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="MakePost.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="ReferenceTweet.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="nlohmann.hpp">
+      <Filter>Header Files\JSON_LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="App.h">
+      <Filter>Header Files\ServerLink</Filter>
+    </ClInclude>
+    <ClInclude Include="Comment.h">
+      <Filter>Header Files\ServerLink</Filter>
+    </ClInclude>
+    <ClInclude Include="IEntityC.h">
+      <Filter>Header Files\ServerLink</Filter>
+    </ClInclude>
+    <ClInclude Include="Post.h">
+      <Filter>Header Files\ServerLink</Filter>
+    </ClInclude>
+    <ClInclude Include="PostWithUser.h">
+      <Filter>Header Files\ServerLink</Filter>
+    </ClInclude>
+    <ClInclude Include="Socket.h">
+      <Filter>Header Files\ServerLink</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>Header Files\ServerLink</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

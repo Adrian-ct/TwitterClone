@@ -1,0 +1,513 @@
+[2022-01-16 22:59:12] [INFO] {"command":1,"password":"1234","username":"ady26"}
+[2022-01-16 22:59:13] [INFO] {"command":10,"user_id":27}
+[2022-01-16 22:59:16] [INFO] {"action":"+1","command":4,"post_id":"46","reaction":"1","user_id":"27"}
+[2022-01-16 23:05:19] [INFO] {"command":1,"password":"1234","username":"ady26"}
+[2022-01-16 23:05:19] [INFO] {"command":10,"user_id":27}
+[2022-01-16 23:06:05] [INFO] {"command":8,"user_id":27}
+[2022-01-16 23:06:15] [INFO] {"action":"+1","command":4,"post_id":"57","reaction":"2","user_id":"27"}
+[2022-01-16 23:06:16] [INFO] {"action":"-1","command":4,"post_id":"57","reaction":"2","user_id":"27"}
+[2022-01-16 23:06:16] [INFO] {"action":"+1","command":4,"post_id":"57","reaction":"1","user_id":"27"}
+[2022-01-16 23:06:17] [INFO] {"action":"-1","command":4,"post_id":"57","reaction":"1","user_id":"27"}
+[2022-01-16 23:06:17] [INFO] {"action":"+1","command":4,"post_id":"57","reaction":"1","user_id":"27"}
+[2022-01-16 23:06:17] [INFO] {"action":"-1","command":4,"post_id":"57","reaction":"1","user_id":"27"}
+[2022-01-16 23:06:17] [INFO] {"action":"+1","command":4,"post_id":"57","reaction":"1","user_id":"27"}
+[2022-01-16 23:06:18] [INFO] {"action":"-1","command":4,"post_id":"57","reaction":"1","user_id":"27"}
+[2022-01-16 23:06:18] [INFO] {"action":"+1","command":4,"post_id":"57","reaction":"1","user_id":"27"}
+[2022-01-16 23:06:18] [INFO] {"action":"-1","command":4,"post_id":"57","reaction":"1","user_id":"27"}
+[2022-01-16 23:06:18] [INFO] {"action":"+1","command":4,"post_id":"57","reaction":"1","user_id":"27"}
+[2022-01-16 23:06:18] [INFO] {"action":"-1","command":4,"post_id":"57","reaction":"1","user_id":"27"}
+[2022-01-16 23:06:18] [INFO] {"action":"+1","command":4,"post_id":"57","reaction":"1","user_id":"27"}
+[2022-01-16 23:06:18] [INFO] {"action":"-1","command":4,"post_id":"57","reaction":"1","user_id":"27"}
+[2022-01-16 23:07:50] [INFO] {"command":1,"password":"1234","username":"ady26"}
+[2022-01-16 23:07:50] [INFO] {"command":10,"user_id":27}
+[2022-01-16 23:07:59] [INFO] {"action":"-1","command":4,"post_id":"31","reaction":"1","user_id":"27"}
+[2022-01-16 23:08:00] [INFO] {"action":"+1","command":4,"post_id":"31","reaction":"1","user_id":"27"}
+[2022-01-16 23:08:00] [INFO] {"action":"-1","command":4,"post_id":"31","reaction":"1","user_id":"27"}
+[2022-01-16 23:08:00] [INFO] {"action":"+1","command":4,"post_id":"31","reaction":"1","user_id":"27"}
+{"command":1,"password":"1234","username":"ady26"}
+{"command":10,"user_id":27}
+{"command":8,"user_id":27}
+{"command":10,"user_id":27}
+{"command":10,"user_id":27}
+{"command":2,"parent_post":31,"posted_by":27,"text":"retweet","username":"ady26"}
+{"command":8,"user_id":27}
+{"command":2,"parent_post":31,"posted_by":27,"text":"sdsadg asdgsdg sd","username":"ady26"}
+{"command":8,"user_id":27}
+{"command":1,"password":"1234","username":"ady26"}
+{"command":10,"user_id":27}
+{"command":2,"parent_post":10,"posted_by":27,"text":"Cum sa nu fie","username":"ady26"}
+{"command":8,"user_id":27}
+{"command":2,"parent_post":null,"posted_by":27,"text":"New Post","username":"ady26"}
+{"command":8,"user_id":27}
+{"birthday":"26-07-2001","command":0,"first_name":"Baloaica","last_name":"Adrian","password":"1234","username":"ady26"}
+{"birthday":"13-02-2002","command":0,"first_name":"Oprea","last_name":"Mihai","password":"1234","username":"mihai"}
+{"command":1,"password":"1234","username":"ady26"}
+{"command":10,"user_id":37}
+{"command":8,"user_id":37}
+{"command":9,"strings":["cats"],"user_id":37}
+{"command":9,"strings":["cats"],"user_id":37}
+{"command":9,"strings":["cats"],"user_id":37}
+{"command":9,"strings":["cats"],"user_id":37}
+{"command":11,"how_many":5,"username":"M"}
+{"command":1,"password":"1234","username":"mihai"}
+{"command":10,"user_id":38}
+{"command":11,"how_many":5,"username":"M"}
+{"command":1,"password":"1234","username":"mihai"}
+{"command":10,"user_id":38}
+{"command":11,"how_many":5,"username":"m"}
+{"command":1,"password":"1234","username":"ady26"}
+{"command":10,"user_id":37}
+{"command":11,"how_many":5,"username":"M"}
+{"command":1,"password":"1234","username":"ady26"}
+{"command":10,"user_id":37}
+{"command":11,"how_many":5,"username":"M"}
+{"command":1,"password":"1234","username":"ady26"}
+{"command":10,"user_id":37}
+{"command":11,"how_many":5,"username":"re"}
+{"command":12,"connected_user_id":37,"user_id":1}
+{"command":1,"password":"1234","username":"ady26"}
+{"command":10,"user_id":37}
+{"command":11,"how_many":5,"username":"a"}
+{"command":1,"password":"1234","username":"ady26"}
+{"command":10,"user_id":37}
+{"command":11,"how_many":5,"username":"a"}
+{"command":12,"connected_user_id":37,"user_id":38}
+{"command":8,"loggedUser":37,"user_id":38}
+{"command":11,"how_many":5,"username":"ghy"}
+{"command":8,"user_id":37}
+{"command":8,"user_id":37}
+{"command":1,"password":"1234","username":"ady26"}
+{"command":10,"user_id":37}
+{"birthday":"15-05-2001","command":0,"first_name":"Madalin","last_name":"Vladoiu","password":"1234","username":"Mada"}
+{"birthday":"15-05-2001","command":0,"first_name":"Balan","last_name":"Adelin","password":"1234","username":"Balan"}
+{"birthday":"13-09-2001","command":0,"first_name":"Ion","last_name":"Ionut","password":"1234","username":"Ionel"}
+{"command":1,"password":"123","username":"Mike"}
+{"command":10,"user_id":38}
+{"command":2,"parent_post":null,"posted_by":38,"text":"This is my first post","username":"Mike"}
+{"command":2,"parent_post":null,"posted_by":38,"text":"How is it going?","username":"Mike"}
+{"command":2,"parent_post":null,"posted_by":38,"text":"Learning to code :)","username":"Mike"}
+{"command":10,"user_id":38}
+{"command":10,"user_id":38}
+{"command":10,"user_id":38}
+{"command":2,"parent_post":null,"posted_by":38,"text":"Working on a project","username":"Mike"}
+{"command":2,"parent_post":null,"posted_by":38,"text":"This post has the maximum length allowed:\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labor","username":"Mike"}
+{"command":8,"user_id":38}
+{"command":8,"user_id":38}
+{"command":8,"user_id":38}
+{"command":2,"parent_post":null,"posted_by":38,"text":"Welcome to the website","username":"Mike"}
+{"command":1,"password":"1234","username":"ady26"}
+{"command":10,"user_id":37}
+{"command":11,"how_many":5,"username":"mike"}
+{"command":12,"connected_user_id":37,"user_id":38}
+{"command":8,"loggedUser":37,"user_id":38}
+{"command":5,"followed_id":38,"follower_id":37}
+{"command":10,"user_id":37}
+{"command":2,"parent_post":65,"posted_by":37,"text":"Good luck","username":"ady26"}
+{"command":2,"parent_post":63,"posted_by":37,"text":"All good :)","username":"ady26"}
+{"action":"+1","command":4,"post_id":"63","reaction":"1","user_id":"37"}
+{"action":"+1","command":4,"post_id":"64","reaction":"2","user_id":"37"}
+{"action":"+1","command":4,"post_id":"62","reaction":"2","user_id":"37"}
+{"action":"-1","command":4,"post_id":"62","reaction":"2","user_id":"37"}
+{"action":"+1","command":4,"post_id":"62","reaction":"1","user_id":"37"}
+{"action":"-1","command":4,"post_id":"64","reaction":"2","user_id":"37"}
+{"action":"+1","command":4,"post_id":"64","reaction":"1","user_id":"37"}
+{"action":"+1","command":4,"post_id":"65","reaction":"1","user_id":"37"}
+{"command":8,"user_id":37}
+{"command":10,"user_id":37}
+{"command":10,"user_id":37}
+{"command":10,"user_id":37}
+{"action":"+1","command":4,"post_id":"67","reaction":"1","user_id":"37"}
+{"command":10,"user_id":37}
+{"command":1,"password":"1234","username":"ady26"}
+{"command":10,"user_id":37}
+{"command":3,"comment":[{"post_time":"2022-01-18 17:43:29","posted_by":"37","posted_on":"64","text":"Good luck with that"}],"reaction":"1"}
+{"command":3,"comment":[{"post_time":"2022-01-18 17:43:36","posted_by":"37","posted_on":"63","text":"All good"}],"reaction":"1"}
+{"command":8,"user_id":37}
+{"command":2,"parent_post":64,"posted_by":37,"text":"Been there, done that :))))","username":"ady26"}
+{"command":8,"user_id":37}
+{"command":10,"user_id":37}
+{"command":2,"parent_post":null,"posted_by":37,"text":"I really like this app","username":"ady26"}
+{"command":8,"user_id":37}
+{"command":11,"how_many":5,"username":"adi"}
+{"command":12,"connected_user_id":37,"user_id":40}
+{"command":8,"loggedUser":37,"user_id":40}
+{"command":5,"followed_id":40,"follower_id":37}
+{"command":1,"password":"123","username":"Mike"}
+{"command":10,"user_id":38}
+{"command":2,"parent_post":null,"posted_by":38,"text":"I've just finished my project 😅","username":"Mike"}
+{"command":8,"user_id":38}
+{"command":8,"user_id":38}
+{"command":2,"parent_post":null,"posted_by":38,"text":"The weather is unbelievable😱","username":"Mike"}
+{"command":8,"user_id":38}
+{"command":11,"how_many":5,"username":"m"}
+{"command":12,"connected_user_id":38,"user_id":41}
+{"command":8,"loggedUser":38,"user_id":41}
+{"command":5,"followed_id":41,"follower_id":38}
+{"command":11,"how_many":5,"username":"ione"}
+{"command":12,"connected_user_id":38,"user_id":41}
+{"command":8,"loggedUser":38,"user_id":41}
+{"command":6,"followed_id":41,"follower_id":38}
+{"command":11,"how_many":5,"username":"adi"}
+{"command":12,"connected_user_id":38,"user_id":37}
+{"command":8,"loggedUser":38,"user_id":37}
+{"command":5,"followed_id":37,"follower_id":38}
+{"command":10,"user_id":38}
+{"action":"+1","command":4,"post_id":"71","reaction":"1","user_id":"38"}
+{"command":10,"user_id":38}
+{"command":10,"user_id":38}
+{"command":10,"user_id":38}
+{"command":10,"user_id":38}
+{"command":10,"user_id":38}
+{"command":8,"user_id":38}
+{"command":10,"user_id":38}
+{"command":10,"user_id":38}
+{"command":10,"user_id":38}
+{"command":1,"password":"1234","username":"ady26"}
+{"command":10,"user_id":37}
+{"command":11,"how_many":5,"username":"IO"}
+{"command":12,"connected_user_id":37,"user_id":41}
+{"command":8,"loggedUser":37,"user_id":41}
+{"command":11,"how_many":5,"username":"ione"}
+{"command":12,"connected_user_id":37,"user_id":38}
+{"command":8,"loggedUser":37,"user_id":38}
+{"command":6,"followed_id":38,"follower_id":37}
+{"command":5,"followed_id":38,"follower_id":37}
+{"command":10,"user_id":37}
+{"command":11,"how_many":5,"username":"ione"}
+{"command":12,"connected_user_id":37,"user_id":41}
+{"command":8,"loggedUser":37,"user_id":41}
+{"command":5,"followed_id":41,"follower_id":37}
+{"command":10,"user_id":37}
+{"command":10,"user_id":37}
+{"command":10,"user_id":37}
+{"command":10,"user_id":37}
+{"command":10,"user_id":37}
+{"command":10,"user_id":37}
+{"command":10,"user_id":37}
+{"command":11,"how_many":5,"username":"ione"}
+{"command":12,"connected_user_id":37,"user_id":41}
+{"command":8,"loggedUser":37,"user_id":41}
+{"command":6,"followed_id":41,"follower_id":37}
+{"command":11,"how_many":5,"username":"i"}
+{"command":12,"connected_user_id":37,"user_id":41}
+{"command":8,"loggedUser":37,"user_id":41}
+{"command":5,"followed_id":41,"follower_id":37}
+{"command":10,"user_id":37}
+{"command":8,"user_id":37}
+{"action":"+1","command":4,"post_id":"72","reaction":"1","user_id":"37"}
+{"birthday":"2000-01-02","command":0,"first_name":"Gigel","last_name":"Ionel","password":"123","username":"ionicaa"}
+{"command":1,"password":"123","username":"ionicaa"}
+{"command":10,"user_id":42}
+{"command":11,"how_many":5,"username":"mih"}
+{"command":12,"connected_user_id":42,"user_id":38}
+{"command":8,"loggedUser":42,"user_id":38}
+{"command":5,"followed_id":38,"follower_id":42}
+{"command":10,"user_id":42}
+{"command":1,"password":"123","username":"ionicaa"}
+{"command":10,"user_id":42}
+{"command":11,"how_many":5,"username":"mike"}
+{"command":12,"connected_user_id":42,"user_id":38}
+{"command":8,"loggedUser":42,"user_id":38}
+{"command":6,"followed_id":38,"follower_id":42}
+{"command":10,"user_id":42}
+{"command":10,"user_id":42}
+{"command":10,"user_id":42}
+{"command":10,"user_id":42}
+{"command":10,"user_id":42}
+{"command":1,"password":"123","username":"ionicaa"}
+{"command":10,"user_id":42}
+{"command":11,"how_many":5,"username":"mike"}
+{"command":12,"connected_user_id":42,"user_id":38}
+{"command":8,"loggedUser":42,"user_id":38}
+{"command":5,"followed_id":38,"follower_id":42}
+{"command":10,"user_id":42}
+{"command":11,"how_many":5,"username":"mike"}
+{"command":12,"connected_user_id":42,"user_id":38}
+{"command":8,"loggedUser":42,"user_id":38}
+{"command":6,"followed_id":38,"follower_id":42}
+{"command":10,"user_id":42}
+{"command":1,"password":"123","username":"ionicaa"}
+{"command":10,"user_id":42}
+{"command":11,"how_many":5,"username":"mke"}
+{"command":12,"connected_user_id":42,"user_id":38}
+{"command":8,"loggedUser":42,"user_id":38}
+{"command":5,"followed_id":38,"follower_id":42}
+{"command":10,"user_id":42}
+{"action":"+1","command":4,"post_id":"72","reaction":"1","user_id":"42"}
+{"command":11,"how_many":5,"username":"mike"}
+{"command":12,"connected_user_id":42,"user_id":38}
+{"command":8,"loggedUser":42,"user_id":38}
+{"command":6,"followed_id":38,"follower_id":42}
+{"command":10,"user_id":42}
+{"command":1,"password":"123","username":"ionicaa"}
+{"command":10,"user_id":42}
+{"command":11,"how_many":5,"username":"mke"}
+{"command":12,"connected_user_id":42,"user_id":38}
+{"command":8,"loggedUser":42,"user_id":38}
+{"command":5,"followed_id":38,"follower_id":42}
+{"command":10,"user_id":42}
+{"action":"-1","command":4,"post_id":"72","reaction":"1","user_id":"42"}
+{"action":"+1","command":4,"post_id":"72","reaction":"2","user_id":"42"}
+{"command":11,"how_many":5,"username":"mike"}
+{"command":12,"connected_user_id":42,"user_id":38}
+{"command":8,"loggedUser":42,"user_id":38}
+{"command":6,"followed_id":38,"follower_id":42}
+{"command":10,"user_id":42}
+{"command":11,"how_many":5,"username":"mike"}
+{"command":12,"connected_user_id":42,"user_id":38}
+{"command":8,"loggedUser":42,"user_id":38}
+{"command":5,"followed_id":38,"follower_id":42}
+{"command":10,"user_id":42}
+{"command":11,"how_many":5,"username":"mike"}
+{"command":12,"connected_user_id":42,"user_id":38}
+{"command":8,"loggedUser":42,"user_id":38}
+{"action":"-1","command":4,"post_id":"72","reaction":"2","user_id":"42"}
+{"action":"+1","command":4,"post_id":"72","reaction":"1","user_id":"42"}
+{"command":10,"user_id":42}
+{"command":3,"comment":[{"post_time":"2022-01-18 18:06:47","posted_by":"42","posted_on":"72","text":"comentariu smecher"}],"reaction":"1"}
+{"command":11,"how_many":5,"username":"mike"}
+{"command":12,"connected_user_id":42,"user_id":38}
+{"command":8,"loggedUser":42,"user_id":38}
+{"command":3,"comment":[{"post_time":"2022-01-18 18:06:57","posted_by":"42","posted_on":"72","text":"hehe"}],"reaction":"1"}
+{"command":10,"user_id":42}
+{"command":3,"comment":[{"post_time":"2022-01-18 18:07:26","posted_by":"42","posted_on":"72","text":"Comment"}],"reaction":"1"}
+{"command":1,"password":"1234","username":"ady26"}
+{"command":10,"user_id":37}
+{"command":11,"how_many":5,"username":"Mike"}
+{"command":12,"connected_user_id":37,"user_id":38}
+{"command":8,"loggedUser":37,"user_id":38}
+{"command":3,"comment":[{"post_time":"2022-01-18 18:10:25","posted_by":"37","posted_on":"72","text":"Comment"}],"reaction":"1"}
+{"command":3,"comment":[{"post_time":"2022-01-18 18:10:28","posted_by":"37","posted_on":"72","text":"ASD"}],"reaction":"1"}
+{"command":10,"user_id":37}
+{"command":1,"password":"1234","username":"ady26"}
+{"command":10,"user_id":37}
+{"command":3,"comment":[{"post_time":"2022-01-18 18:12:40","posted_by":"37","posted_on":"72","text":"Comentariu tare"}],"reaction":"1"}
+{"command":10,"user_id":37}
+{"command":3,"comment":[{"post_time":"2022-01-18 18:12:57","posted_by":"37","posted_on":"72","text":"COM now"}],"reaction":"1"}
+{"command":10,"user_id":37}
+{"command":1,"password":"123","username":"ionicaa"}
+{"command":10,"user_id":42}
+{"command":3,"comment":[{"post_time":"2022-01-18 18:16:35","posted_by":"42","posted_on":"72","text":"ultimu coment"}],"reaction":"1"}
+{"command":10,"user_id":42}
+{"command":8,"user_id":42}
+{"command":1,"password":"1234","username":"ady26"}
+{"command":10,"user_id":37}
+{"command":11,"how_many":5,"username":"mike"}
+{"command":12,"connected_user_id":37,"user_id":41}
+{"command":8,"loggedUser":37,"user_id":41}
+{"command":1,"password":"123","username":"ionicaa"}
+{"command":10,"user_id":42}
+{"command":8,"user_id":42}
+{"command":2,"parent_post":null,"posted_by":42,"text":"frumos afara","username":"ionicaa"}
+{"command":8,"user_id":42}
+{"action":"+1","command":4,"post_id":"73","reaction":"1","user_id":"42"}
+{"action":"-1","command":4,"post_id":"73","reaction":"1","user_id":"42"}
+{"action":"+1","command":4,"post_id":"73","reaction":"2","user_id":"42"}
+{"action":"-1","command":4,"post_id":"73","reaction":"2","user_id":"42"}
+{"birthday":"10-11-2001","command":0,"first_name":"Andrei","last_name":"Adrei","password":"12","username":"andrei30"}
+{"command":1,"password":"12","username":"andrei30"}
+{"command":10,"user_id":43}
+{"command":8,"user_id":43}
+{"command":2,"parent_post":null,"posted_by":43,"text":"Prima mea postare","username":"andrei30"}
+{"command":8,"user_id":43}
+{"command":3,"comment":[{"post_time":"2022-01-18 18:33:09","posted_by":"43","posted_on":"74","text":"coment smecher"}],"reaction":"0"}
+{"command":8,"user_id":43}
+{"command":1,"password":"1234","username":"ady26"}
+{"command":10,"user_id":37}
+{"command":11,"how_many":5,"username":"ady2"}
+{"command":12,"connected_user_id":43,"user_id":37}
+{"command":8,"loggedUser":43,"user_id":37}
+{"command":5,"followed_id":37,"follower_id":43}
+{"command":2,"parent_post":null,"posted_by":37,"text":"ninge","username":"ady26"}
+{"command":10,"user_id":43}
+{"command":8,"user_id":37}
+{"action":"+1","command":4,"post_id":"75","reaction":"1","user_id":"37"}
+{"command":10,"user_id":43}
+{"command":1,"password":"1234","username":"ady26"}
+{"command":10,"user_id":37}
+{"command":1,"password":"1234","username":"ady26"}
+{"command":10,"user_id":37}
+{"command":8,"user_id":37}
+{"action":"-1","command":4,"post_id":"75","reaction":"1","user_id":"37"}
+{"action":"+1","command":4,"post_id":"75","reaction":"1","user_id":"37"}
+{"birthday":"22-01-2000","command":0,"first_name":"ion","last_name":"ion","password":"123","username":"ion1"}
+{"command":1,"password":"123","username":"ion1"}
+{"command":10,"user_id":44}
+{"command":8,"user_id":44}
+{"command":11,"how_many":5,"username":"mike"}
+{"command":11,"how_many":5,"username":"ady2"}
+{"command":12,"connected_user_id":44,"user_id":37}
+{"command":8,"loggedUser":44,"user_id":37}
+{"command":2,"parent_post":null,"posted_by":37,"text":"nu mai ninge","username":"ady26"}
+{"command":10,"user_id":44}
+{"command":10,"user_id":44}
+{"command":10,"user_id":44}
+{"command":11,"how_many":5,"username":"mike"}
+{"command":12,"connected_user_id":44,"user_id":38}
+{"command":8,"loggedUser":44,"user_id":38}
+{"command":11,"how_many":5,"username":"ady"}
+{"command":12,"connected_user_id":44,"user_id":37}
+{"command":8,"loggedUser":44,"user_id":37}
+{"command":5,"followed_id":37,"follower_id":44}
+{"command":10,"user_id":44}
+{"command":11,"how_many":5,"username":"ady"}
+{"command":1,"password":"123","username":"ion1"}
+{"command":10,"user_id":44}
+{"command":11,"how_many":5,"username":"adfs"}
+{"command":1,"password":"123","username":"ady26"}
+{"command":1,"password":"1234","username":"ady26"}
+{"command":10,"user_id":37}
+{"command":2,"parent_post":null,"posted_by":37,"text":"i love #cats","username":"ady26"}
+{"command":2,"parent_post":null,"posted_by":37,"text":"#cats are my life","username":"ady26"}
+{"command":9,"strings":["cats"],"user_id":37}
+{"command":1,"password":"123","username":"ionicaa"}
+{"command":10,"user_id":42}
+{"command":10,"user_id":42}
+{"command":8,"user_id":42}
+{"action":"+1","command":4,"post_id":"73","reaction":"1","user_id":"42"}
+{"action":"-1","command":4,"post_id":"73","reaction":"1","user_id":"42"}
+{"action":"+1","command":4,"post_id":"73","reaction":"2","user_id":"42"}
+{"action":"-1","command":4,"post_id":"73","reaction":"2","user_id":"42"}
+{"command":1,"password":"1234","username":"ady26"}
+{"command":10,"user_id":37}
+{"command":8,"user_id":37}
+{"command":1,"password":"1234","username":"mihai"}
+{"command":1,"password":"123","username":"mihai"}
+{"command":1,"password":"123","username":"mihai"}
+{"command":1,"password":"123","username":"Mike"}
+{"command":10,"user_id":38}
+{"command":8,"user_id":38}
+{"action":"+1","command":4,"post_id":"72","reaction":"2","user_id":"38"}
+{"action":"-1","command":4,"post_id":"72","reaction":"2","user_id":"38"}
+{"command":3,"comment":[{"post_time":"2022-01-18 19:48:50","posted_by":"38","posted_on":"67","text":"Comment"}],"reaction":"0"}
+{"command":2,"parent_post":75,"posted_by":38,"text":"chiar da","username":"Mike"}
+{"command":8,"user_id":38}
+{"action":"+1","command":4,"post_id":"75","reaction":"2","user_id":"38"}
+{"action":"-1","command":4,"post_id":"75","reaction":"2","user_id":"38"}
+{"action":"+1","command":4,"post_id":"75","reaction":"2","user_id":"38"}
+{"command":8,"user_id":38}
+{"command":10,"user_id":38}
+{"command":11,"how_many":5,"username":"al"}
+{"command":1,"password":"1234","username":"Mike"}
+{"command":1,"password":"123","username":"Mike"}
+{"command":10,"user_id":38}
+{"action":"-1","command":4,"post_id":"71","reaction":"1","user_id":"38"}
+{"action":"+1","command":4,"post_id":"71","reaction":"2","user_id":"38"}
+{"action":"-1","command":4,"post_id":"71","reaction":"2","user_id":"38"}
+{"action":"+1","command":4,"post_id":"71","reaction":"1","user_id":"38"}
+{"command":11,"how_many":5,"username":"adi"}
+{"command":8,"user_id":38}
+{"command":1,"password":"1234","username":"ady26"}
+{"command":10,"user_id":37}
+{"command":11,"how_many":5,"username":"a"}
+{"command":12,"connected_user_id":37,"user_id":39}
+{"command":8,"loggedUser":37,"user_id":39}
+{"command":11,"how_many":5,"username":"f"}
+{"command":12,"connected_user_id":37,"user_id":40}
+{"command":8,"loggedUser":37,"user_id":40}
+{"command":11,"how_many":5,"username":"a"}
+{"command":8,"user_id":37}
+{"command":8,"user_id":37}
+{"command":8,"user_id":37}
+{"command":1,"password":"1234","username":"ady26"}
+{"command":10,"user_id":37}
+{"command":1,"password":"1234","username":"ady26"}
+{"command":10,"user_id":37}
+{"command":1,"password":"1234","username":"ady26"}
+{"command":10,"user_id":37}
+{"command":1,"password":"1234","username":"ady26"}
+{"command":10,"user_id":37}
+{"action":"-1","command":4,"post_id":"72","reaction":"1","user_id":"37"}
+{"action":"-1","command":4,"post_id":"67","reaction":"1","user_id":"37"}
+{"action":"-1","command":4,"post_id":"65","reaction":"1","user_id":"37"}
+{"action":"-1","command":4,"post_id":"63","reaction":"1","user_id":"37"}
+{"action":"-1","command":4,"post_id":"62","reaction":"1","user_id":"37"}
+{"action":"+1","command":4,"post_id":"72","reaction":"2","user_id":"37"}
+{"command":10,"user_id":37}
+{"command":1,"password":"11234","username":"ady26"}
+{"command":1,"password":"1234","username":"ady26"}
+{"command":10,"user_id":37}
+{"command":8,"user_id":37}
+{"birthday":"13-09-2001","command":0,"first_name":"Daniel","last_name":"Bryan","password":"1234","username":"danb28"}
+{"command":1,"password":"1234","username":"danb28"}
+{"command":10,"user_id":45}
+{"command":8,"user_id":45}
+{"command":2,"parent_post":null,"posted_by":45,"text":"I heard about this app from my friends and I think is very nice😁 ","username":"danb28"}
+{"command":8,"user_id":45}
+{"command":2,"parent_post":null,"posted_by":45,"text":"I woke up today and I fell very sick, pray for me y'all🤧 ","username":"danb28"}
+{"command":11,"how_many":5,"username":"a"}
+{"command":12,"connected_user_id":45,"user_id":37}
+{"command":8,"loggedUser":45,"user_id":37}
+{"command":5,"followed_id":37,"follower_id":45}
+{"command":10,"user_id":45}
+{"command":2,"parent_post":63,"posted_by":45,"text":"Not much, how about you","username":"danb28"}
+{"action":"+1","command":4,"post_id":"63","reaction":"1","user_id":"45"}
+{"command":10,"user_id":45}
+{"command":8,"user_id":45}
+{"command":10,"user_id":45}
+{"command":10,"user_id":45}
+{"command":8,"user_id":45}
+{"command":10,"user_id":45}
+{"command":8,"user_id":45}
+{"command":2,"parent_post":null,"posted_by":45,"text":"I feel very sick today, pray for me y'all🤧 ","username":"danb28"}
+{"command":8,"user_id":45}
+{"command":1,"password":"1234","username":"danb28"}
+{"command":10,"user_id":45}
+{"command":8,"user_id":45}
+{"command":2,"parent_post":null,"posted_by":45,"text":"I feel very sick today y'all, pray for me😖 ","username":"danb28"}
+{"command":2,"parent_post":null,"posted_by":45,"text":"I feel very sick today y'all, pray for me 🥲 ","username":"danb28"}
+{"command":8,"user_id":45}
+{"command":2,"parent_post":null,"posted_by":45,"text":"I feel very sick today y'all, pray for me ","username":"danb28"}
+{"command":2,"parent_post":null,"posted_by":45,"text":"Hello there","username":"danb28"}
+{"command":3,"comment":[{"post_time":"2022-01-22 22:48:35","posted_by":"45","posted_on":"70","text":"hey, I am an programmer too"}],"reaction":"0"}
+{"command":3,"comment":[{"post_time":"2022-01-22 22:49:18","posted_by":"45","posted_on":"72","text":"you are very very right my friend, it is exquisite"}],"reaction":"0"}
+{"action":"+1","command":4,"post_id":"67","reaction":"1","user_id":"45"}
+{"command":3,"comment":[{"post_time":"2022-01-22 22:49:34","posted_by":"45","posted_on":"67","text":"Thank you very much, is nice to be here"}],"reaction":"1"}
+{"action":"+1","command":4,"post_id":"64","reaction":"1","user_id":"45"}
+{"command":8,"user_id":45}
+{"command":1,"password":"1234","username":"ady26"}
+{"command":10,"user_id":37}
+{"command":3,"comment":[{"post_time":"2022-01-22 22:50:36","posted_by":"37","posted_on":"72","text":"right now I am in Brasov and I can say it's quite extraordinary"}],"reaction":"2"}
+{"action":"+1","command":4,"post_id":"67","reaction":"1","user_id":"37"}
+{"command":3,"comment":[{"post_time":"2022-01-22 22:51:01","posted_by":"37","posted_on":"67","text":"It's nice to be here :)"}],"reaction":"1"}
+{"command":10,"user_id":37}
+{"command":10,"user_id":37}
+{"command":10,"user_id":37}
+{"command":3,"comment":[{"post_time":"2022-01-22 22:51:29","posted_by":"37","posted_on":"67","text":"Nice to be here"}],"reaction":"1"}
+{"command":10,"user_id":37}
+{"command":3,"comment":[{"post_time":"2022-01-22 22:51:56","posted_by":"37","posted_on":"65","text":"Let's work on it togheter then :)"}],"reaction":"0"}
+{"command":10,"user_id":37}
+{"command":3,"comment":[{"post_time":"2022-01-22 22:53:29","posted_by":"37","posted_on":"65","text":"Let's work togheter on it then"}],"reaction":"0"}
+{"command":3,"comment":[{"post_time":"2022-01-22 22:53:32","posted_by":"37","posted_on":"65","text":"a"}],"reaction":"0"}
+{"command":3,"comment":[{"post_time":"2022-01-22 22:53:33","posted_by":"37","posted_on":"65","text":"f"}],"reaction":"0"}
+{"command":10,"user_id":37}
+{"command":1,"password":"1234","username":"ady26"}
+{"command":10,"user_id":37}
+{"command":3,"comment":[{"post_time":"2022-01-22 22:54:25","posted_by":"37","posted_on":"65","text":"Let's work togheter on it then :)"}],"reaction":"0"}
+{"command":1,"password":"1234","username":"ady26"}
+{"command":10,"user_id":37}
+{"command":3,"comment":[{"post_time":"2022-01-22 22:55:59","posted_by":"37","posted_on":"63","text":"Let's work togheter on it then"}],"reaction":"0"}
+{"command":10,"user_id":37}
+{"command":3,"comment":[{"post_time":"2022-01-22 22:56:52","posted_by":"37","posted_on":"65","text":"nice"}],"reaction":"0"}
+{"command":1,"password":"1234","username":"ady26"}
+{"command":10,"user_id":37}
+{"command":3,"comment":[{"post_time":"2022-01-22 22:59:13","posted_by":"37","posted_on":"72","text":"quite an extraordinary weather i would say "}],"reaction":"2"}
+{"command":10,"user_id":37}
+{"command":3,"comment":[{"post_time":"2022-01-22 22:59:46","posted_by":"37","posted_on":"67","text":"Thank you kind sir, it's actually very fun here"}],"reaction":"1"}
+{"command":3,"comment":[{"post_time":"2022-01-22 23:00:45","posted_by":"37","posted_on":"64","text":"same"}],"reaction":"1"}
+{"command":1,"password":"1234","username":"ady26"}
+{"command":10,"user_id":37}
+{"command":11,"how_many":5,"username":"a"}
+{"command":12,"connected_user_id":37,"user_id":45}
+{"command":8,"loggedUser":37,"user_id":45}
+{"command":5,"followed_id":45,"follower_id":37}
+{"command":1,"password":"123","username":"Mike"}
+{"command":10,"user_id":38}
+{"action":"+1","command":4,"post_id":"82","reaction":"1","user_id":"38"}
+{"command":3,"comment":[{"post_time":"2022-01-22 23:04:46","posted_by":"38","posted_on":"82","text":"Hello"}],"reaction":"1"}
+{"command":10,"user_id":38}
+{"command":10,"user_id":38}
+{"command":3,"comment":[{"post_time":"2022-01-22 23:05:10","posted_by":"38","posted_on":"78","text":"also mine"}],"reaction":"0"}
+{"command":3,"comment":[{"post_time":"2022-01-22 23:05:23","posted_by":"38","posted_on":"77","text":"i love them too"}],"reaction":"0"}
+{"command":8,"user_id":38}
+{"command":3,"comment":[{"post_time":"2022-01-22 23:07:10","posted_by":"38","posted_on":"72","text":"it's a little too cold for my taste"}],"reaction":"0"}

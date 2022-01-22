@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ReferenceTweet</class>
+ <widget class="QWidget" name="ReferenceTweet">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1671</width>
+    <height>901</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ReferenceTweet</string>
+  </property>
+  <widget class="QGroupBox" name="postArea">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>150</y>
+     <width>861</width>
+     <height>581</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(207, 217, 255);
+</string>
+   </property>
+   <property name="title">
+    <string>posted on -Date-</string>
+   </property>
+   <widget class="QGroupBox" name="commentsBox">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>330</y>
+      <width>661</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Comments</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="postTextBrowser">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>30</y>
+      <width>811</width>
+      <height>211</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="commentLine">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>500</y>
+      <width>651</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="postCommentButton">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>500</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+
+background-color:  rgb(30, 101, 255);
+color:rgb(255, 255, 255);
+border-radius: 15px;
+
+}
+QPushButton:hover{
+background-color: rgb(1, 221, 255);
+color:rgb(0, 0, 0);
+}
+QPushButton:pressed{
+background-color:rgb(43, 107, 255)
+}</string>
+    </property>
+    <property name="text">
+     <string>Post comment</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="likedByLabel">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>270</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Liked by:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="dislikedByLabel">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>270</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Disliked by:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="likeButton">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>260</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+
+background-color:  rgb(30, 101, 255);
+color:rgb(255, 255, 255);
+border-radius: 15px;
+
+}
+QPushButton:hover{
+background-color: rgb(1, 221, 255);
+color:rgb(0, 0, 0);
+}
+QPushButton:pressed{
+background-color:rgb(43, 107, 255)
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>Icons/2x/baseline_thumb_up_white_24dp.png</normaloff>Icons/2x/baseline_thumb_up_white_24dp.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>22</width>
+      <height>22</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="dislikeButton">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>260</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+
+background-color:  rgb(30, 101, 255);
+color:rgb(255, 255, 255);
+border-radius: 15px;
+
+}
+QPushButton:hover{
+background-color: rgb(1, 221, 255);
+color:rgb(0, 0, 0);
+}
+QPushButton:pressed{
+background-color:rgb(43, 107, 255)
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>Icons/2x/baseline_thumb_down_alt_white_24dp.png</normaloff>Icons/2x/baseline_thumb_down_alt_white_24dp.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>22</width>
+      <height>22</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QScrollArea" name="commentsScrollArea">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>360</y>
+      <width>761</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="widgetResizable">
+     <bool>true</bool>
+    </property>
+    <widget class="QWidget" name="commentContentScrollArea_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>759</width>
+       <height>119</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="background">
+   <property name="geometry">
+    <rect>
+     <x>-20</x>
+     <y>-10</y>
+     <width>1671</width>
+     <height>901</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(213, 221, 255)
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="usernamePostLabel">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>90</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 13pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="nameInitLabel">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>80</y>
+     <width>61</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+ border-style: outset;
+ border-width: 2px;
+ border-color: black;
+border-radius:25px;
+font: 20pt &quot;Lucida Calligraphy&quot;;
+color:black;
+background-color:rgb(120, 149, 255)
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <zorder>background</zorder>
+  <zorder>postArea</zorder>
+  <zorder>usernamePostLabel</zorder>
+  <zorder>nameInitLabel</zorder>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
